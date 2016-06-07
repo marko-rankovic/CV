@@ -1,0 +1,132 @@
+%!TEX TS-program = xelatex
+\documentclass[]{rankovic-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage[utf8x,utf8]{inputenc} % make weird characters work
+\usepackage[serbian]{babel}
+
+\hypersetup{
+    pdftitle={CV_RankovicMarko},
+    pdfauthor={Marko Ranković},
+    pdfsubject={Curriculum Vitae},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Marko}{Ranković}
+      {Bachelor of Computer Science}
+      
+
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+
+\begin{aside}
+  \section{Address}
+    Arčibalda Rajsa 18
+    Belgrade, Serbia
+    ~
+  \section{Tel \& Skype}
+    +381 69 637467
+    rtrk.marko.rankovic
+    ~
+  \section{Mail}
+    \href{mailto:marko.rankovic@outlook.com}{\textbf{marko.rankovic@}\\outlook.com}
+    ~
+  \section{Web \& Git}
+    \href{https://www.linkedin.com/in/marko-rankovic-055034b0}{Marko Ranković LinkedIn}
+    \href{https://github.com/marko-rankovic}{Marko Ranković GitHub}
+    ~
+  \section{Programming}
+    \textbf{C/C++}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{SQL}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Java}\includegraphics[scale=0.40]{img/3stars.png}
+    \textbf{.NET}\includegraphics[scale=0.40]{img/2stars.png}
+    \textbf{Python}\includegraphics[scale=0.40]{img/2stars.png}
+    ~
+  \section{OS Preference}
+    \textbf{GNU/Linux}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Unix}\includegraphics[scale=0.40]{img/3stars.png}
+    \textbf{MacOS}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Windows}\includegraphics[scale=0.40]{img/2stars.png}
+    ~
+  \section{Personal Skills}
+    \textbf{Teamplay}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Commun.}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Curious}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Initiative}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Organized}\includegraphics[scale=0.40]{img/3stars.png}
+    ~
+\end{aside}
+
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {02/15 - Now}
+    {Embedded Software Engineer}
+    {RT-RK Institute, Belgrade, Serbia}
+    {Design and development of embedded software     for Android-based devices working on MIPS processors.\\}
+  \entry
+    {11/13 - 02/15}
+    {Intern (Embedded Software Development)}
+    {RT-RK Institute, Belgrade, Serbia}
+    {Design and development of Browser-based HLS Media Players in PNACL.\\}
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2015}
+    {Master's Degree in Computer Science}
+    {University of Belgrade, Serbia}
+    {Main subjects: Informational Systems, Data Mining, Artificial Inteligence, Networks.}
+  \entry
+    {2011 - 2015}
+    {Bachelor's Degree in Computer Science}
+    {University of Belgrade, Serbia}
+    {Main subjects: Mathematics, Programming, Databases, Operating Systems, Hardware Architecture.}
+  \entry
+    {2007 - 2011}
+    {Vuk Karadžić Diplomma}
+    {High school "Mladost", Petrovac na Mlavi, Serbia}
+    {Secondary School.\\
+    Main subjects: Matematics, Physics, Computer Science.}
+\end{entrylist}
+
+\section{Certifications}
+\begin{entrylist}
+  \entry
+    {10/2015}
+    {Git / Gerrit}
+    {RT-RK Institute, Belgrade, Serbia}
+    {\emph{Fundamentals of Git and Gerrit}}
+  \entry
+    {07/2015}
+    {Android system programming}
+    {RT-RK Institute, Belgrade, Serbia}
+    {\emph{Introduction to Android system architecture and programming}}
+  \entry
+    {12/2014}
+    {Digital TV}
+    {RT-RK Institute, Belgrade, Serbia}
+    {\emph{Introduction to DTV architecture and programming for STB}}
+  \entry
+    {04/2014}
+    {Introduction to .NET }
+    {University of Belgrade, Serbia}
+    {\emph{Basics of CS.NET}}
+  \entry
+    {02/2014}
+    {Nvidia CUDA Programming}
+    {University of Belgrade, Serbia}
+    {\emph{Introduction to programming CUDA kernels for Nvidia graphic cards}}
+\end{entrylist}
+
+\end{document}
